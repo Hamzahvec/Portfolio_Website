@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Blog Website",
+    "description": "A fully functional blogging platform built with Flask featuring authentication, a rich text editor, and a PostgreSQL database.",
+    "technologies": [
+      "Python",
+      "Flask",
+      "SQLAlchemy",
+      "Bootstrap",
+      "PostgreSQL"
+    ],
+    "image": "static/images/blog.png",
+    "demo": "https://portfolio-delta-lovat-67.vercel.app/",
+    "featured": true
+  },
+  {
+    "title": "Company Profile Website",
+    "description": "A company profile page with complete portfolio, contact, and pricing pages. Smooth, elegant, and modern design",
+    "technologies": [
+      "Python",
+      "Flask",
+      "Bootstrap"
+    ],
+    "image": "static/images/ce.png",
+    "demo": "https://catalyst-engine-inky.vercel.app/",
+    "featured": true
+  },
+  {
+    "title": "Blog Website",
+    "description": "A fully functional blogging platform built with Flask featuring authentication, a rich text editor, and a PostgreSQL database.",
+    "technologies": [
+      "Python",
+      "Flask",
+      "SQLAlchemy",
+      "Bootstrap",
+      "PostgreSQL"
+    ],
+    "image": "static/images/blog.png",
+    "demo": "https://portfolio-delta-lovat-67.vercel.app/",
+    "featured": true
+  },
+  {
+    "title": "Company Profile Website",
+    "description": "A company profile page with complete portfolio, contact, and pricing pages. Smooth, elegant, and modern design",
+    "technologies": [
+      "Python",
+      "Flask",
+      "Bootstrap"
+    ],
+    "image": "static/images/ce.png",
+    "demo": "https://catalyst-engine-inky.vercel.app/",
+    "featured": true
+  }
+]

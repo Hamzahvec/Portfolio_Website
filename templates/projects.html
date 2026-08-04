@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="heading2" style="margin: 35px;">Projects</h1>
+<div class="projects-container">
+{% for project in data %}
+
+        <div class="project-card card">
+            <img src="{{ project.image }}" class="project-image">
+            <h4 class="heading2" style="font-size: 25px;">{{ project.title }}</h4>
+            <div class="hover-data">
+                <p>{{ project.description }}</p>
+                <p>Demo: <a class="demo-link" href="{{ project.demo }}">{{ project.demo }}</a></p>
+                <div style="display: flex; flex-direction: row; flex-wrap: wrap; margin-top: 10px;">
+                    {% for skill in project.technologies %}
+                    <span class="skill-hole">{{ skill }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+{% endfor %}
+    </div>
+
+
+{% endblock %}

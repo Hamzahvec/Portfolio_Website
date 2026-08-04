@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="contact-container">
+    <form class="form-style card" action="/contact" method="POST">
+        <h1 class="heading2">Contact Me</h1>
+        {{ form.csrf_token() }}
+        {{ form.name.label }}
+        {{ form.name(size=20, class='field') }}
+        {{ form.email.label }}
+        {{ form.email(size=20, class='field') }}
+        {{ form.message.label }}
+        {{ form.message }}
+        {{ form.submit(class='submit-btn') }}
+    </form>
+</div>
+
+
+{% endblock %}
