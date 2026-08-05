@@ -4,10 +4,11 @@ from wtforms import StringField, EmailField, TelField, SubmitField, TextAreaFiel
 from wtforms.validators import DataRequired
 from bs4 import BeautifulSoup
 import requests
+import os
 import json
 
 app = Flask(__name__)
-app.secret_key = "QWERtyu87%qwERtyHbfr$"
+app.secret_key = os.getenv("FLASK_KEY")
 
 class ContactForm(FlaskForm):
     name = StringField("Name", validators=[DataRequired()])
